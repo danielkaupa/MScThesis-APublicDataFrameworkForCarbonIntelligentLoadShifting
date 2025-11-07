@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/rds/general/user/dbk24/home/code_and_analysis/hitachi_meter_reading_retrieval_off_campus_v2.py", line 129, in <module>
+    df = query_to_polars_copy(sql)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rds/general/user/dbk24/home/code_and_analysis/hitachi_meter_reading_retrieval_off_campus_v2.py", line 111, in query_to_polars_copy
+    cur.copy_expert(copy_sql, buf)
+psycopg2.DatabaseError: error with status PGRES_COPY_OUT and no message from the libpq
+Exception during reset or similar
+Traceback (most recent call last):
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 987, in _finalize_fairy
+    fairy._reset(
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 1433, in _reset
+    pool._dialect.do_rollback(self)
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 703, in do_rollback
+    dbapi_connection.rollback()
+psycopg2.InterfaceError: connection already closed

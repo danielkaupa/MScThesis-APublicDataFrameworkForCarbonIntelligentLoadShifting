@@ -1,0 +1,35 @@
+/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/bin/psql
+psql (PostgreSQL) 14.5
+Successfully retrieved data for 2023-01 and saved to ../data/hitachi_copy/meter_readings_2023_1_20250704_0427.parquet
+Successfully retrieved data for 2023-02 and saved to ../data/hitachi_copy/meter_readings_2023_2_20250704_0502.parquet
+Successfully retrieved data for 2023-03 and saved to ../data/hitachi_copy/meter_readings_2023_3_20250704_0542.parquet
+Successfully retrieved data for 2023-04 and saved to ../data/hitachi_copy/meter_readings_2023_4_20250704_0554.parquet
+Successfully retrieved data for 2023-05 and saved to ../data/hitachi_copy/meter_readings_2023_5_20250704_0604.parquet
+Successfully retrieved data for 2023-06 and saved to ../data/hitachi_copy/meter_readings_2023_6_20250704_0613.parquet
+Successfully retrieved data for 2023-07 and saved to ../data/hitachi_copy/meter_readings_2023_7_20250704_0622.parquet
+Successfully retrieved data for 2023-08 and saved to ../data/hitachi_copy/meter_readings_2023_8_20250704_0632.parquet
+Successfully retrieved data for 2023-09 and saved to ../data/hitachi_copy/meter_readings_2023_9_20250704_0641.parquet
+Successfully retrieved data for 2023-10 and saved to ../data/hitachi_copy/meter_readings_2023_10_20250704_0651.parquet
+Successfully retrieved data for 2023-11 and saved to ../data/hitachi_copy/meter_readings_2023_11_20250704_0701.parquet
+Successfully retrieved data for 2023-12 and saved to ../data/hitachi_copy/meter_readings_2023_12_20250704_0711.parquet
+Successfully retrieved data for 2021-01 and saved to ../data/hitachi_copy/meter_readings_2021_1_20250704_0935.parquet
+Successfully retrieved data for 2021-02 and saved to ../data/hitachi_copy/meter_readings_2021_2_20250704_0946.parquet
+Successfully retrieved data for 2021-03 and saved to ../data/hitachi_copy/meter_readings_2021_3_20250704_0957.parquet
+Successfully retrieved data for 2021-04 and saved to ../data/hitachi_copy/meter_readings_2021_4_20250704_1008.parquet
+Successfully retrieved data for 2021-05 and saved to ../data/hitachi_copy/meter_readings_2021_5_20250704_1018.parquet
+Successfully retrieved data for 2021-06 and saved to ../data/hitachi_copy/meter_readings_2021_6_20250704_1028.parquet
+Successfully retrieved data for 2021-07 and saved to ../data/hitachi_copy/meter_readings_2021_7_20250704_1038.parquet
+Successfully retrieved data for 2021-08 and saved to ../data/hitachi_copy/meter_readings_2021_8_20250704_1048.parquet
+Successfully retrieved data for 2021-09 and saved to ../data/hitachi_copy/meter_readings_2021_9_20250704_1058.parquet
+Successfully retrieved data for 2021-10 and saved to ../data/hitachi_copy/meter_readings_2021_10_20250704_1108.parquet
+Successfully retrieved data for 2021-11 and saved to ../data/hitachi_copy/meter_readings_2021_11_20250704_1118.parquet
+=== Job hitachi_meter_reading_retrieval_off_campus_months_v2 (ID 607501.pbs-7) finished on cx3-2-20.cx3.hpc.ic.ac.uk at Fri  4 Jul 14:01:33 BST 2025 ===
+
+====================================
+CPU Time used: 00:04:42
+CPU Percent: 25%
+Memory usage: 12611984kb
+Approx Power usage: 0.0008
+Walltime usage: 10:07:26
+
+====================================

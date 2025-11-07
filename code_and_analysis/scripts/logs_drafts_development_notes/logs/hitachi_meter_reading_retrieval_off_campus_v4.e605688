@@ -1,0 +1,34 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"postgresql/14"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "postgresql/14"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Traceback (most recent call last):
+  File "/rds/general/user/dbk24/home/code_and_analysis/hitachi_meter_reading_retrieval_off_campus_v4.py", line 91, in <module>
+    raise RuntimeError(f"psql COPY failed (exit {rc}):\n{err}")
+RuntimeError: psql COPY failed (exit 2):
+COPY data transfer failed: could not receive data from server: Connection timed out
+SSL SYSCALL error: Connection timed out
+could not receive data from server: Connection timed out
+SSL SYSCALL error: Connection timed out
+COPY data transfer failed: could not receive data from server: Connection timed out
+SSL SYSCALL error: Connection timed out
+SSL SYSCALL error: EOF detected
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+could not receive data from server: Connection timed out
+SSL SYSCALL error: Connection timed out
+SSL SYSCALL error: EOF detected
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+connection to server was lost
+

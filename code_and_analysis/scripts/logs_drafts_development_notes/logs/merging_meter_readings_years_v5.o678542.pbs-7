@@ -1,0 +1,71 @@
+Rank 46: No input files found.
+Rank 60: No input files found.
+Rank 33: No input files found.
+Rank 47: No input files found.
+Rank 18: No input files found.
+Rank 20: No input files found.
+Rank 16: No input files found.
+Rank 22: No input files found.
+Rank 38: No input files found.
+Rank 28: No input files found.
+Rank 54: No input files found.
+Rank 23: No input files found.
+Rank 1: Rows collected = 1223040456
+Rank 1: wrote ../../data/hitachi_copy/temp_merge_outputs/merged_temp_rank1.parquet
+Rank 55: No input files found.
+Rank 24: No input files found.
+Rank 9: No input files found.
+Rank 25: No input files found.
+Rank 26: No input files found.
+Rank 36: No input files found.
+Rank 29: No input files found.
+Rank 2: Rows collected = 189094063
+Rank 2: wrote ../../data/hitachi_copy/temp_merge_outputs/merged_temp_rank2.parquet
+Rank 35: No input files found.
+Rank 50: No input files found.
+Rank 3: No input files found.
+Rank 12: No input files found.
+Rank 52: No input files found.
+Rank 8: No input files found.
+Rank 13: No input files found.
+Rank 17: No input files found.
+Rank 53: No input files found.
+Rank 49: No input files found.
+Rank 63: No input files found.
+Rank 45: No input files found.
+Rank 30: No input files found.
+Rank 37: No input files found.
+Rank 41: No input files found.
+Rank 51: No input files found.
+Rank 62: No input files found.
+Rank 59: No input files found.
+Rank 58: No input files found.
+Rank 44: No input files found.
+Rank 61: No input files found.
+Rank 4: No input files found.
+Rank 21: No input files found.
+Rank 57: No input files found.
+Rank 7: No input files found.
+Rank 15: No input files found.
+Rank 31: No input files found.
+Rank 32: No input files found.
+Rank 42: No input files found.
+Rank 34: No input files found.
+Rank 11: No input files found.
+Rank 40: No input files found.
+Rank 6: No input files found.
+Rank 43: No input files found.
+Rank 10: No input files found.
+Rank 5: No input files found.
+Rank 56: No input files found.
+Rank 27: No input files found.
+Rank 14: No input files found.
+Rank 39: No input files found.
+Rank 48: No input files found.
+Rank 19: No input files found.
+Rank 0: Rows collected = 243195781
+Rank 0: wrote ../../data/hitachi_copy/temp_merge_outputs/merged_temp_rank0.parquet
+Rank 0: Total merged rows = 1655330300
+Rank 0: Final merged file written to: ../../data/hitachi_copy/meter_primary_files/meter_readings_all_years_20250714_2015_optimised.parquet
+Rank 0: Removed temp directory: ../../data/hitachi_copy/temp_merge_outputs
+=== Job merging_meter_readings_years_v5 (ID 678542.pbs-7) finished on cx3-5-27.cx3.hpc.ic.ac.uk at Wed 16 Jul 16:46:58 BST 2025 ===

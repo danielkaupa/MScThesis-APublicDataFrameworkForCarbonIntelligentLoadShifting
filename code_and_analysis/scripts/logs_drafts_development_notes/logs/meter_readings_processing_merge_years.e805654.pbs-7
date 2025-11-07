@@ -1,0 +1,6 @@
+/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/hpc_scripts/final/meter_readings_processing_merge_years.py:60: CategoricalRemappingWarning: Local categoricals have different encodings, expensive re-encoding is done to perform this merge operation. Consider using a StringCache or an Enum type if the categories are known in advance
+  lf = pl.read_parquet(path, use_pyarrow=True).lazy()
+
+thread 'async-executor-8' panicked at crates/polars-stream/src/async_executor/task.rs:231:40:
+joined on cancelled task
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

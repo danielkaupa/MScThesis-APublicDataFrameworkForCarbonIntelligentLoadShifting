@@ -1,0 +1,5 @@
+Rank 1 SUCCESS: Saved optimised data to: ../../data/hitachi_copy/meter_primary_files/meter_readings_2022_20250714_2324_formatted.parquet
+Rank 2 SUCCESS: Saved optimised data to: ../../data/hitachi_copy/meter_primary_files/meter_readings_2023_20250714_2039_formatted.parquet
+Rank 0 SUCCESS: Saved optimised data to: ../../data/hitachi_copy/meter_primary_files/meter_readings_2021_20250714_2015_formatted.parquet
+=== MPI Job Completed on 64 ranks ===
+=== Job meter_readings_standardisation (ID 804326.pbs-7) finished on cx3-12-27.cx3.hpc.ic.ac.uk at Thu 31 Jul 16:47:06 BST 2025 ===

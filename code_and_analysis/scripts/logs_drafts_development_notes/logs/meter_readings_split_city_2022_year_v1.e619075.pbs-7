@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/hpc_scripts/final/meter_readings_split_city_2022_year_v1.py", line 40, in <module>
+    meter_readings_delhi_first_half_2022 = meter_readings_delhi.filter(
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/polars/dataframe/frame.py", line 5181, in filter
+    .collect(optimizations=QueryOptFlags._eager())
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/polars/_utils/deprecation.py", line 97, in wrapper
+    return function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/polars/lazyframe/opt_flags.py", line 330, in wrapper
+    return function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/polars/lazyframe/frame.py", line 2332, in collect
+    return wrap_df(ldf.collect(engine, callback))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+polars.exceptions.InvalidOperationError: cannot compare 'date/datetime/time' to a string value (create native python { 'date', 'datetime', 'time' } or compare to a temporal column)

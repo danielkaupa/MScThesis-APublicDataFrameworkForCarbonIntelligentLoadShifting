@@ -1,0 +1,2 @@
+/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/hpc_scripts/final/meter_data_hourly_aggregation_for_files_v1.py:68: DeprecationWarning: the argument `by` for `DataFrame.group_by_dynamic` is deprecated. It was renamed to `group_by` in version 0.20.14.
+  hourly_df = df.group_by_dynamic(

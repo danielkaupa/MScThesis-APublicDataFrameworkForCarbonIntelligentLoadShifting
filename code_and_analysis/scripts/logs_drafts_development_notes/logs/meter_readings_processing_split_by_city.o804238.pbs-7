@@ -1,0 +1,5 @@
+Rank 2 FILE NOT FOUND: File not found: ../../data/hitachi_copy/meter_primary_files/meter_readings_2023_20250714_2039_formatted.parquet
+Rank 1 FILE NOT FOUND: File not found: ../../data/hitachi_copy/meter_primary_files/meter_readings_2022_20250714_2324_formatted.parquet
+Rank 0 FILE NOT FOUND: File not found: ../../data/hitachi_copy/meter_primary_files/meter_readings_2021_20250714_2015_formatted.parquet
+=== Split complete on 64 ranks ===
+=== Job meter_readings_processing_split_by_city (ID 804238.pbs-7) finished on cx3-5-23.cx3.hpc.ic.ac.uk at Thu 31 Jul 16:02:54 BST 2025 ===

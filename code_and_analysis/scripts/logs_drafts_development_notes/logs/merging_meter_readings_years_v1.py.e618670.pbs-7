@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/hpc_scripts/merging_meter_readings_years_v1.py", line 59, in <module>
+    raise ValueError(f"No date pattern found in {meter_readings_filename}")
+ValueError: No date pattern found in meter_readings_2021_20250704_1311.parquet

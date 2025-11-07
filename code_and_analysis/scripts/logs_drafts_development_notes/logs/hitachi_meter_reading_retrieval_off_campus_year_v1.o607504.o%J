@@ -1,0 +1,16 @@
+Fetching 2023 data…
+Successfully saved 189094063 rows to meter_readings_2023_20250704_1029.parquet
+Fetching 2022 data…
+Successfully saved 983648389 rows to meter_readings_2022_20250704_1150.parquet
+Fetching 2021 data…
+Successfully saved 243195781 rows to meter_readings_2021_20250704_1311.parquet
+=== Job hitachi_meter_reading_retrieval_off_campus_year_v1 (ID 607504.pbs-7) finished on cx3-2-20.cx3.hpc.ic.ac.uk at Fri  4 Jul 13:12:17 BST 2025 ===
+
+====================================
+CPU Time used: 00:19:58
+CPU Percent: 152%
+Memory usage: 150849460kb
+Approx Power usage: 0.0038
+Walltime usage: 04:13:10
+
+====================================

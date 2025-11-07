@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/hpc_scripts/final/meter_data_hourly_aggregation_for_files_v1.py", line 56, in <module>
+    match = re.search(r"(.*?)(\d{8})\.parquet)$", filename)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/re/__init__.py", line 176, in search
+    return _compile(pattern, flags).search(string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/re/__init__.py", line 294, in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/re/_compiler.py", line 743, in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/re/_parser.py", line 985, in parse
+    raise source.error("unbalanced parenthesis")
+re.error: unbalanced parenthesis at position 21

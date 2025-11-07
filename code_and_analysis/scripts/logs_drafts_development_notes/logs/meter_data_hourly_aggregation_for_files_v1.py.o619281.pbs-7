@@ -1,0 +1,8 @@
+ERROR: File not found: ../data/hitachi_copy/meter_primary_files/meter_readings_all_years_20250704.parquet
+ERROR: File not found: ../data/hitachi_copy/meter_primary_files/meter_readings_delhi_all_years_20250704.parquet
+ERROR: File not found: ../data/hitachi_copy/meter_primary_files/meter_readings_delhi_2022_Q1and2_20250704.parquet
+ERROR: File not found: ../data/hitachi_copy/meter_primary_files/meter_readings_delhi_2022_Q3and4_20250704.parquet
+ERROR: File not found: ../data/hitachi_copy/meter_primary_files/meter_readings_mumbai_all_years_20250704.parquet
+ERROR: File not found: ../data/hitachi_copy/meter_primary_files/meter_readings_mumbai_2022_Q1and2_20250704.parquet
+ERROR: File not found: ../data/hitachi_copy/meter_primary_files/meter_readings_mumbai_2022_Q3and4_20250704.parquet
+=== Job meter_data_hourly_aggregation_for_files_v1.py (ID 619281.pbs-7) finished on cx3-2-18.cx3.hpc.ic.ac.uk at Mon  7 Jul 20:21:29 BST 2025 ===

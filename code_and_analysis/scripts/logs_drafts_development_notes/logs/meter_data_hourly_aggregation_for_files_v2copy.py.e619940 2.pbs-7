@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/hpc_scripts/final/meter_data_hourly_aggregation_for_files_v2copy.py", line 44, in <module>
+    pl.Config.set_io_thread_count(24)  # Default is usually 2
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'Config' has no attribute 'set_io_thread_count'

@@ -1,0 +1,15 @@
+⏳ fetching 2021 data…
+✅ saved 243195781 rows to meter_readings_2021_20250703_0227.parquet
+⏳ fetching 2022 data…
+✅ saved 932955979 rows to meter_readings_2022_20250703_0404.parquet
+⏳ fetching 2023 data…
+=== Test job finished on cx3-12-21.cx3.hpc.ic.ac.uk at Thu  3 Jul 04:24:23 BST 2025 ===
+
+====================================
+CPU Time used: 00:16:36
+CPU Percent: 129%
+Memory usage: 139083020kb
+Approx Power usage: 0.0032
+Walltime usage: 03:24:12
+
+====================================

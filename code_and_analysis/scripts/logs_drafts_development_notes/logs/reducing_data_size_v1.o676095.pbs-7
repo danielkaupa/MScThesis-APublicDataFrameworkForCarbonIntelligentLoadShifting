@@ -1,0 +1,19 @@
+Rank 0 SUCCESS: Saved optimised data to: ../../data/hitachi_copy/weather_20250714_1401_optimised.parquet
+Rank 0 SUCCESS: Saved optimised data to: ../../data/hitachi_copy/customers_20250714_1401_optimised.parquet
+Rank 0 ERROR: Failed to process 'meter_readings_2021_20250714_2015.parquet': conversion from `str` to `datetime[μs]` failed in column 'date' for 131174 out of 131174 values: ["2021-12-02 00:30:00", "2021-12-02 00:30:00", … "2021-12-02 00:30:00"]
+
+You might want to try:
+- setting `strict=False` to set values that cannot be converted to `null`
+- using `str.strptime`, `str.to_date`, or `str.to_datetime` and providing a format string
+=== MPI Job Completed on 64 ranks ===
+Rank 2 ERROR: Failed to process 'meter_readings_2023_20250714_2039.parquet': conversion from `str` to `datetime[μs]` failed in column 'date' for 109343 out of 109343 values: ["2023-01-04 08:30:00", "2023-01-04 08:30:00", … "2023-01-04 08:30:00"]
+
+You might want to try:
+- setting `strict=False` to set values that cannot be converted to `null`
+- using `str.strptime`, `str.to_date`, or `str.to_datetime` and providing a format string
+Rank 1 ERROR: Failed to process 'meter_readings_2022_20250714_2324.parquet': conversion from `str` to `datetime[μs]` failed in column 'date' for 131087 out of 131087 values: ["2022-01-02 00:30:00", "2022-01-02 00:30:00", … "2022-01-02 00:30:00"]
+
+You might want to try:
+- setting `strict=False` to set values that cannot be converted to `null`
+- using `str.strptime`, `str.to_date`, or `str.to_datetime` and providing a format string
+=== Job reducing_data_size_v1 (ID 676095.pbs-7) finished on cx3-12-27.cx3.hpc.ic.ac.uk at Tue 15 Jul 12:47:52 BST 2025 ===

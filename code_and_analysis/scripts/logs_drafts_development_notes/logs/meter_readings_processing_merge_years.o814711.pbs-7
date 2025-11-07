@@ -1,0 +1,2 @@
+ERROR saving merged meter readings data: 'LazyFrame' object has no attribute 'write_parquet'
+=== Job meter_readings_processing_merge_years (ID 814711.pbs-7) finished on cx3-15-19.cx3.hpc.ic.ac.uk at Mon  4 Aug 23:36:11 BST 2025 ===

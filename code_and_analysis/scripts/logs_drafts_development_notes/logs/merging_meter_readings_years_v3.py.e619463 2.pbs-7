@@ -1,0 +1,4 @@
+  File "/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/hpc_scripts/final/merging_meter_readings_years_v3.py", line 50
+    pl.col("value").cast(pl.Float32)  # Downcast 'value' to float32
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?

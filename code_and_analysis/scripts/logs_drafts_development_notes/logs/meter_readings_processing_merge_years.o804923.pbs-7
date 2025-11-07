@@ -1,0 +1,2 @@
+ERROR saving merged meter readings data: invalid series dtype: expected `String`, got `datetime[μs]` for series with name `date`
+=== Job meter_readings_processing_merge_years (ID 804923.pbs-7) finished on cx3-12-25.cx3.hpc.ic.ac.uk at Thu 31 Jul 17:11:50 BST 2025 ===

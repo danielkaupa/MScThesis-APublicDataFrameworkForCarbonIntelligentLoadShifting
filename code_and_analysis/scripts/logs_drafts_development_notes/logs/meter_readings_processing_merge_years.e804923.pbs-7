@@ -1,0 +1,2 @@
+/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/hpc_scripts/final/meter_readings_processing_merge_years.py:60: CategoricalRemappingWarning: Local categoricals have different encodings, expensive re-encoding is done to perform this merge operation. Consider using a StringCache or an Enum type if the categories are known in advance
+  lf = pl.read_parquet(path, use_pyarrow=True).lazy().with_columns([

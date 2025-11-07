@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/rds/general/user/dbk24/home/code_and_analysis/hpc_meter_readings_scripts/hitachi_meter_reading_retrieval_off_campus_months_v2_2022.py", line 70, in <module>
+    raise RuntimeError(f"psql COPY failed (exit {rc}):\n{err}")
+RuntimeError: psql COPY failed (exit 1):
+b'could not receive data from server: Connection timed out\nSSL SYSCALL error: Connection timed out\n'
+Traceback (most recent call last):
+  File "/rds/general/user/dbk24/home/code_and_analysis/hpc_meter_readings_scripts/hitachi_meter_reading_retrieval_off_campus_months_v2_2021.py", line 70, in <module>
+    raise RuntimeError(f"psql COPY failed (exit {rc}):\n{err}")
+RuntimeError: psql COPY failed (exit 2):
+b'COPY data transfer failed: could not receive data from server: Connection timed out\nSSL SYSCALL error: Connection timed out\ncould not receive data from server: Connection timed out\nSSL SYSCALL error: Connection timed out\nCOPY data transfer failed: could not receive data from server: Connection timed out\nSSL SYSCALL error: Connection timed out\nSSL SYSCALL error: EOF detected\nserver closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.\ncould not receive data from server: Connection timed out\nSSL SYSCALL error: Connection timed out\nSSL SYSCALL error: EOF detected\nserver closed the connection unexpectedly\n\tThis probably means the server terminated abnormally\n\tbefore or while processing the request.\nconnection to server was lost\n'

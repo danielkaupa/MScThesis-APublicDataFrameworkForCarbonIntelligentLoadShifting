@@ -1,0 +1,470 @@
+ERROR reading 2021 parquet: No such file or directory (os error 2): ...rp-dbk24/data/hitachi_copy/meter_primary_files/meter_readings_2021_20250714_2015.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+Date Range Analysis for Meter Readings Files:
+------------------------------------------------------------------------------------------------------------------------
+Error processing /rds/general/user/dbk24/home/irp-dbk24/data/hitachi_copy/meter_primary_files/meter_readings_2021_20250714_2015_formatted.parquet: No such file or directory (os error 2): ...ata/hitachi_copy/meter_primary_files/meter_readings_2021_20250714_2015_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'select'
+	[3] 'sink'
+
+meter_readings_2021_20250714_2015_formatted.parquet: ERROR determining date range
+Error processing /rds/general/user/dbk24/home/irp-dbk24/data/hitachi_copy/meter_primary_files/meter_readings_2022_20250714_2324_formatted.parquet: No such file or directory (os error 2): ...ata/hitachi_copy/meter_primary_files/meter_readings_2022_20250714_2324_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'select'
+	[3] 'sink'
+
+meter_readings_2022_20250714_2324_formatted.parquet: ERROR determining date range
+Error processing /rds/general/user/dbk24/home/irp-dbk24/data/hitachi_copy/meter_primary_files/meter_readings_2023_20250714_2039_formatted.parquet: No such file or directory (os error 2): ...ata/hitachi_copy/meter_primary_files/meter_readings_2023_20250714_2039_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'select'
+	[3] 'sink'
+
+meter_readings_2023_20250714_2039_formatted.parquet: ERROR determining date range
+Error processing /rds/general/user/dbk24/home/irp-dbk24/data/hitachi_copy/meter_primary_files/meter_readings_delhi_2021_20250714_2015_formatted.parquet: No such file or directory (os error 2): ...tachi_copy/meter_primary_files/meter_readings_delhi_2021_20250714_2015_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'select'
+	[3] 'sink'
+
+meter_readings_delhi_2021_20250714_2015_formatted.parquet: ERROR determining date range
+Error processing /rds/general/user/dbk24/home/irp-dbk24/data/hitachi_copy/meter_primary_files/meter_readings_delhi_2022_20250714_2324_formatted.parquet: No such file or directory (os error 2): ...tachi_copy/meter_primary_files/meter_readings_delhi_2022_20250714_2324_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'select'
+	[3] 'sink'
+
+meter_readings_delhi_2022_20250714_2324_formatted.parquet: ERROR determining date range
+Error processing /rds/general/user/dbk24/home/irp-dbk24/data/hitachi_copy/meter_primary_files/meter_readings_mumbai_2022_20250714_2324_formatted.parquet: No such file or directory (os error 2): ...achi_copy/meter_primary_files/meter_readings_mumbai_2022_20250714_2324_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'select'
+	[3] 'sink'
+
+meter_readings_mumbai_2022_20250714_2324_formatted.parquet: ERROR determining date range
+Error processing /rds/general/user/dbk24/home/irp-dbk24/data/hitachi_copy/meter_primary_files/meter_readings_mumbai_2023_20250714_2039_formatted.parquet: No such file or directory (os error 2): ...achi_copy/meter_primary_files/meter_readings_mumbai_2023_20250714_2039_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'select'
+	[3] 'sink'
+
+meter_readings_mumbai_2023_20250714_2039_formatted.parquet: ERROR determining date range
+Error processing /rds/general/user/dbk24/home/irp-dbk24/data/hitachi_copy/meter_primary_files/meter_readings_all_years_20250714_formatted.parquet: No such file or directory (os error 2): ...ata/hitachi_copy/meter_primary_files/meter_readings_all_years_20250714_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'select'
+	[3] 'sink'
+
+meter_readings_all_years_20250714_formatted.parquet: ERROR determining date range
+
+------------------------------------------------------------------------------------------------------------------------
+Summary Analysis of 2021 Data :
+------------------------------------------------------------------------------------------------------------------------
+ERROR summarizing 2021: No such file or directory (os error 2): ...rp-dbk24/data/hitachi_copy/meter_primary_files/meter_readings_2021_20250714_2015.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'select'
+	[3] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+Summary Analysis of 2022 Data :
+------------------------------------------------------------------------------------------------------------------------
+ERROR summarizing 2022: No such file or directory (os error 2): ...rp-dbk24/data/hitachi_copy/meter_primary_files/meter_readings_2022_20250714_2324.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'select'
+	[3] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+Summary Analysis of 2023 Data :
+------------------------------------------------------------------------------------------------------------------------
+ERROR summarizing 2023: No such file or directory (os error 2): ...rp-dbk24/data/hitachi_copy/meter_primary_files/meter_readings_2023_20250714_2039.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'select'
+	[3] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+2021 Data : Readings Per City 
+------------------------------------------------------------------------------------------------------------------------
+ERROR analyze_readings_per_city 2021: No such file or directory (os error 2): ...rp-dbk24/data/hitachi_copy/meter_primary_files/meter_readings_2021_20250714_2015.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'group_by'
+	[3] 'with_columns'
+	[4] 'sort'
+	[5] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+2022 Data : Readings Per City 
+------------------------------------------------------------------------------------------------------------------------
+ERROR analyze_readings_per_city 2022: No such file or directory (os error 2): ...rp-dbk24/data/hitachi_copy/meter_primary_files/meter_readings_2022_20250714_2324.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'group_by'
+	[3] 'with_columns'
+	[4] 'sort'
+	[5] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+2023 Data : Readings Per City 
+------------------------------------------------------------------------------------------------------------------------
+ERROR analyze_readings_per_city 2023: No such file or directory (os error 2): ...rp-dbk24/data/hitachi_copy/meter_primary_files/meter_readings_2023_20250714_2039.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'group_by'
+	[3] 'with_columns'
+	[4] 'sort'
+	[5] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+2021 Data : Readings Per Customer 
+------------------------------------------------------------------------------------------------------------------------
+ERROR analyze_readings_per_customer 2021: No such file or directory (os error 2): ...rp-dbk24/data/hitachi_copy/meter_primary_files/meter_readings_2021_20250714_2015.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'group_by'
+	[3] 'with_columns'
+	[4] 'sort'
+	[5] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+2022 Data : Readings Per Customer 
+------------------------------------------------------------------------------------------------------------------------
+ERROR analyze_readings_per_customer 2022: No such file or directory (os error 2): ...rp-dbk24/data/hitachi_copy/meter_primary_files/meter_readings_2022_20250714_2324.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'group_by'
+	[3] 'with_columns'
+	[4] 'sort'
+	[5] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+2023 Data : Readings Per Customer 
+------------------------------------------------------------------------------------------------------------------------
+ERROR analyze_readings_per_customer 2023: No such file or directory (os error 2): ...rp-dbk24/data/hitachi_copy/meter_primary_files/meter_readings_2023_20250714_2039.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'group_by'
+	[3] 'with_columns'
+	[4] 'sort'
+	[5] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+2021 Data : Customer Lifetimes 
+------------------------------------------------------------------------------------------------------------------------
+ERROR analyze_customer_lifetimes 2021: No such file or directory (os error 2): ...ata/hitachi_copy/meter_primary_files/meter_readings_2021_20250714_2015_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'with_columns'
+	[3] 'group_by'
+	[4] 'with_columns'
+	[5] 'sort'
+	[6] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+2022 Data : Customer Lifetimes 
+------------------------------------------------------------------------------------------------------------------------
+ERROR analyze_customer_lifetimes 2022: No such file or directory (os error 2): ...rp-dbk24/data/hitachi_copy/meter_primary_files/meter_readings_2022_20250714_2324.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'with_columns'
+	[3] 'group_by'
+	[4] 'with_columns'
+	[5] 'sort'
+	[6] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+2023 Data : Customer Lifetimes 
+------------------------------------------------------------------------------------------------------------------------
+ERROR analyze_customer_lifetimes 2023: No such file or directory (os error 2): ...ata/hitachi_copy/meter_primary_files/meter_readings_2023_20250714_2039_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'with_columns'
+	[3] 'group_by'
+	[4] 'with_columns'
+	[5] 'sort'
+	[6] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+Summary Analysis of 2021 Delhi Data :
+------------------------------------------------------------------------------------------------------------------------
+ERROR summarizing 2021 Delhi: No such file or directory (os error 2): ...tachi_copy/meter_primary_files/meter_readings_delhi_2021_20250714_2015_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'select'
+	[3] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+Summary Analysis of 2022 Delhi Data :
+------------------------------------------------------------------------------------------------------------------------
+ERROR summarizing 2022 Delhi: No such file or directory (os error 2): ...tachi_copy/meter_primary_files/meter_readings_delhi_2022_20250714_2324_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'select'
+	[3] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+2021 Delhi Data : Readings Per City 
+------------------------------------------------------------------------------------------------------------------------
+ERROR analyze_readings_per_city 2021 Delhi: No such file or directory (os error 2): ...tachi_copy/meter_primary_files/meter_readings_delhi_2021_20250714_2015_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'group_by'
+	[3] 'with_columns'
+	[4] 'sort'
+	[5] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+2022 Delhi Data : Readings Per City 
+------------------------------------------------------------------------------------------------------------------------
+ERROR analyze_readings_per_city 2022 Delhi: No such file or directory (os error 2): ...tachi_copy/meter_primary_files/meter_readings_delhi_2022_20250714_2324_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'group_by'
+	[3] 'with_columns'
+	[4] 'sort'
+	[5] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+2021 Delhi Data : Readings Per Customer 
+------------------------------------------------------------------------------------------------------------------------
+ERROR analyze_readings_per_customer 2021 Delhi: No such file or directory (os error 2): ...tachi_copy/meter_primary_files/meter_readings_delhi_2021_20250714_2015_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'group_by'
+	[3] 'with_columns'
+	[4] 'sort'
+	[5] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+2022 Delhi Data : Readings Per Customer 
+------------------------------------------------------------------------------------------------------------------------
+ERROR analyze_readings_per_customer 2022 Delhi: No such file or directory (os error 2): ...tachi_copy/meter_primary_files/meter_readings_delhi_2022_20250714_2324_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'group_by'
+	[3] 'with_columns'
+	[4] 'sort'
+	[5] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+2021 Delhi Data : Customer Lifetimes 
+------------------------------------------------------------------------------------------------------------------------
+ERROR analyze_customer_lifetimes 2021 Delhi: No such file or directory (os error 2): ...tachi_copy/meter_primary_files/meter_readings_delhi_2021_20250714_2015_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'with_columns'
+	[3] 'group_by'
+	[4] 'with_columns'
+	[5] 'sort'
+	[6] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+2022 Delhi Data : Customer Lifetimes 
+------------------------------------------------------------------------------------------------------------------------
+ERROR analyze_customer_lifetimes 2022 Delhi: No such file or directory (os error 2): ...tachi_copy/meter_primary_files/meter_readings_delhi_2022_20250714_2324_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'with_columns'
+	[3] 'group_by'
+	[4] 'with_columns'
+	[5] 'sort'
+	[6] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+Summary Analysis of 2022 Mumbai Data :
+------------------------------------------------------------------------------------------------------------------------
+ERROR summarizing 2022 Mumbai: No such file or directory (os error 2): ...achi_copy/meter_primary_files/meter_readings_mumbai_2022_20250714_2324_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'select'
+	[3] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+Summary Analysis of 2023 Mumbai Data :
+------------------------------------------------------------------------------------------------------------------------
+ERROR summarizing 2023 Mumbai: No such file or directory (os error 2): ...achi_copy/meter_primary_files/meter_readings_mumbai_2023_20250714_2039_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'select'
+	[3] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+2022 Mumbai Data : Readings Per City 
+------------------------------------------------------------------------------------------------------------------------
+ERROR analyze_readings_per_city 2022 Mumbai: No such file or directory (os error 2): ...achi_copy/meter_primary_files/meter_readings_mumbai_2022_20250714_2324_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'group_by'
+	[3] 'with_columns'
+	[4] 'sort'
+	[5] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+2023 Mumbai Data : Readings Per City 
+------------------------------------------------------------------------------------------------------------------------
+ERROR analyze_readings_per_city 2023 Mumbai: No such file or directory (os error 2): ...achi_copy/meter_primary_files/meter_readings_mumbai_2023_20250714_2039_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'group_by'
+	[3] 'with_columns'
+	[4] 'sort'
+	[5] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+2022 Mumbai Data : Readings Per Customer 
+------------------------------------------------------------------------------------------------------------------------
+ERROR analyze_readings_per_customer 2022 Mumbai: No such file or directory (os error 2): ...achi_copy/meter_primary_files/meter_readings_mumbai_2022_20250714_2324_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'group_by'
+	[3] 'with_columns'
+	[4] 'sort'
+	[5] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+2023 Mumbai Data : Readings Per Customer 
+------------------------------------------------------------------------------------------------------------------------
+ERROR analyze_readings_per_customer 2023 Mumbai: No such file or directory (os error 2): ...achi_copy/meter_primary_files/meter_readings_mumbai_2023_20250714_2039_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'group_by'
+	[3] 'with_columns'
+	[4] 'sort'
+	[5] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+2022 Mumbai Data : Customer Lifetimes 
+------------------------------------------------------------------------------------------------------------------------
+ERROR analyze_customer_lifetimes 2022 Mumbai: No such file or directory (os error 2): ...achi_copy/meter_primary_files/meter_readings_mumbai_2022_20250714_2324_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'with_columns'
+	[3] 'group_by'
+	[4] 'with_columns'
+	[5] 'sort'
+	[6] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+2023 Mumbai Data : Customer Lifetimes 
+------------------------------------------------------------------------------------------------------------------------
+ERROR analyze_customer_lifetimes 2023 Mumbai: No such file or directory (os error 2): ...achi_copy/meter_primary_files/meter_readings_mumbai_2023_20250714_2039_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'with_columns'
+	[3] 'group_by'
+	[4] 'with_columns'
+	[5] 'sort'
+	[6] 'sink'
+
+ERROR daily patterns / peaks: No such file or directory (os error 2): ...achi_copy/meter_primary_files/meter_readings_mumbai_2022_20250714_2324_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'filter'
+	[3] 'with_columns'
+	[4] 'group_by'
+	[5] 'group_by'
+	[6] 'sort'
+	[7] 'sink'
+
+ERROR hourly heatmap: No such file or directory (os error 2): ...achi_copy/meter_primary_files/meter_readings_mumbai_2023_20250714_2039_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'sink'
+
+
+------------------------------------------------------------------------------------------------------------------------
+All-Years (Full Dataset) : Summary & Reports
+------------------------------------------------------------------------------------------------------------------------
+Error processing /rds/general/user/dbk24/home/irp-dbk24/data/hitachi_copy/meter_primary_files/meter_readings_all_years_20250714_formatted.parquet: No such file or directory (os error 2): ...ata/hitachi_copy/meter_primary_files/meter_readings_all_years_20250714_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'select'
+	[3] 'sink'
+
+All-years: ERROR determining date range
+ERROR all-years summary: No such file or directory (os error 2): ...ata/hitachi_copy/meter_primary_files/meter_readings_all_years_20250714_formatted.parquet (set POLARS_VERBOSE=1 to see full path)
+
+This error occurred with the following context stack:
+	[1] 'parquet scan'
+	[2] 'select'
+	[3] 'sink'
+
+
+=== Completed meter_readings_analysis.py ===
+=== Job meter_readings_analysis (ID 835659.pbs-7) finished on cx3-5-24.cx3.hpc.ic.ac.uk at Mon 11 Aug 15:38:40 BST 2025 ===

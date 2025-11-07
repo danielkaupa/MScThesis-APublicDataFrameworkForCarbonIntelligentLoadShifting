@@ -1,0 +1,16 @@
+ERROR saving merged meter readings data: cannot compare categoricals coming from different sources, consider setting a global StringCache.
+
+Help: if you're using Python, this may look something like:
+
+    with pl.StringCache():
+        df1 = pl.DataFrame({'a': ['1', '2']}, schema={'a': pl.Categorical})
+        df2 = pl.DataFrame({'a': ['1', '3']}, schema={'a': pl.Categorical})
+        pl.concat([df1, df2])
+
+Alternatively, if the performance cost is acceptable, you could just set:
+
+    import polars as pl
+    pl.enable_string_cache()
+
+on startup.
+=== Job meter_readings_processing_merge_years (ID 805654.pbs-7) finished on cx3-15-18.cx3.hpc.ic.ac.uk at Thu 31 Jul 19:15:18 BST 2025 ===

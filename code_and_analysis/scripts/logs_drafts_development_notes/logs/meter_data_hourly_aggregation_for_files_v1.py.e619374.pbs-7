@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/hpc_scripts/final/meter_data_hourly_aggregation_for_files_v1.py", line 48, in <module>
+    input_path = os.path.join(meter_save_directory, filename)
+                              ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'meter_save_directory' is not defined. Did you mean: 'data_save_directory'?

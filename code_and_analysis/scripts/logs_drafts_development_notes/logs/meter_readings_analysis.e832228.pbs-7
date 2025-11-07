@@ -1,0 +1,3 @@
+sys:1: CategoricalRemappingWarning: Local categoricals have different encodings, expensive re-encoding is done to perform this merge operation. Consider using a StringCache or an Enum type if the categories are known in advance
+/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/hpc_scripts/final/meter_readings_analysis.py:854: DeprecationWarning: the argument `columns` for `DataFrame.pivot` is deprecated. It was renamed to `on` in version 1.0.0.
+  .pivot(values="value", index="hour", columns="day_of_week")

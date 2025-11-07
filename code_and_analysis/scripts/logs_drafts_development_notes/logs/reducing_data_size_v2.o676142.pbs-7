@@ -1,0 +1,7 @@
+Rank 1 SUCCESS: Saved optimised data to: ../../data/hitachi_copy/meter_primary_files/meter_readings_2022_20250714_2324_optimised.parquet
+Rank 2 SUCCESS: Saved optimised data to: ../../data/hitachi_copy/meter_primary_files/meter_readings_2023_20250714_2039_optimised.parquet
+Rank 0 SUCCESS: Saved optimised data to: ../../data/hitachi_copy/weather_20250714_1401_optimised.parquet
+Rank 0 SUCCESS: Saved optimised data to: ../../data/hitachi_copy/customers_20250714_1401_optimised.parquet
+Rank 0 SUCCESS: Saved optimised data to: ../../data/hitachi_copy/meter_primary_files/meter_readings_2021_20250714_2015_optimised.parquet
+=== MPI Job Completed on 64 ranks ===
+=== Job reducing_data_size_v2 (ID 676142.pbs-7) finished on cx3-12-27.cx3.hpc.ic.ac.uk at Tue 15 Jul 13:10:20 BST 2025 ===

@@ -1,0 +1,15 @@
+
+--> Saved the delhi data for all years to: '../../data/hitachi_copy/meter_primary_files/meter_readings_delhi_all_years_20250704.parquet'
+
+--> Saved the delhi data for first half of 2022 to: '../../data/hitachi_copy/meter_primary_files/meter_readings_delhi_2022_Q1and2_20250704.parquet'
+
+--> Saved the delhi data for second half of 2022 to: '../../data/hitachi_copy/meter_primary_files/meter_readings_delhi_2022_Q3and4_20250704.parquet'
+
+--> Saved the mumbai data for all years to: '../../data/hitachi_copy/meter_primary_files/meter_readings_mumbai_all_years_20250704.parquet'
+
+--> Saved the mumbai data for first half of 2022 to: '../../data/hitachi_copy/meter_primary_files/meter_readings_mumbai_2022_Q1and2_20250704.parquet'
+
+--> Saved the mumbai data for second half of 2022 to: '../../data/hitachi_copy/meter_primary_files/meter_readings_mumbai_2022_Q3and4_20250704.parquet'
+
+--> Successfully saved all filtered data to Parquet files.
+=== Job meter_readings_split_city_2022_year_v2 (ID 619794.pbs-7) finished on cx3-5-22.cx3.hpc.ic.ac.uk at Mon  7 Jul 21:28:38 BST 2025 ===

@@ -1,0 +1,29 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# FILE: step6_optimisation_results_analysis.py
+#
+# PURPOSE:
+
+# USAGE:
+
+#
+# RUN REQUIREMENTS:
+
+#
+# OUTPUTS:
+
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ────────────────────────────────────────────────────────────────────────────
+# IMPORTING LIBRARIES
+# ────────────────────────────────────────────────────────────────────────────
+
+import os
+import re
+import glob
+from mpi4py import MPI
+from datetime import datetime
+import polars as pl
+import cvxpy as cp
+
+
+import step5_optimisation_module as opt

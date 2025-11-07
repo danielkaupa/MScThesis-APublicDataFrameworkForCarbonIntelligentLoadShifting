@@ -1,0 +1,13 @@
+INFO:__main__:Database connection successful
+INFO:__main__:[3] years of data available spanning
+	 [2021, 2022, 2023]
+INFO:__main__:Processing...
+INFO:__main__:-> Processed year [2021] with [243195781] rows and status | [Saved to ../../data/hitachi_copy/meter_primary_files/meter_readings_2021_20250805_1341.parquet]
+INFO:__main__:	[1/3] years completed
+INFO:__main__:-> Processed year [2023] with [189094063] rows and status | [Saved to ../../data/hitachi_copy/meter_primary_files/meter_readings_2023_20250805_1402.parquet]
+INFO:__main__:	[2/3] years completed
+INFO:__main__:-> Processed year [2022] with [1223040456] rows and status | [Saved to ../../data/hitachi_copy/meter_primary_files/meter_readings_2022_20250806_1042.parquet]
+INFO:__main__:	[3/3] years completed
+INFO:__main__:
+Processing complete
+INFO:__main__:Successfully processed 1,655,330,300 rows from 3 years

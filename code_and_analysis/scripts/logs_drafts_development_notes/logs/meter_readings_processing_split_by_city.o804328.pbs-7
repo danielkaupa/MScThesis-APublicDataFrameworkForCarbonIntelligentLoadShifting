@@ -1,0 +1,6 @@
+Rank 2 SUCCESS: Saved ../../data/hitachi_copy/meter_primary_files/meter_readings_mumbai_2023_20250714_2039_formatted.parquet
+Rank 0 SUCCESS: Saved ../../data/hitachi_copy/meter_primary_files/meter_readings_delhi_2021_20250714_2015_formatted.parquet
+=== Split complete on 64 ranks ===
+Rank 1 SUCCESS: Saved ../../data/hitachi_copy/meter_primary_files/meter_readings_delhi_2022_20250714_2324_formatted.parquet
+Rank 1 SUCCESS: Saved ../../data/hitachi_copy/meter_primary_files/meter_readings_mumbai_2022_20250714_2324_formatted.parquet
+=== Job meter_readings_processing_split_by_city (ID 804328.pbs-7) finished on cx3-12-27.cx3.hpc.ic.ac.uk at Thu 31 Jul 16:55:55 BST 2025 ===

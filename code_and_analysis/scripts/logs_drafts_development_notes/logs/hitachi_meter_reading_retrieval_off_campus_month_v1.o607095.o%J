@@ -1,0 +1,12 @@
+/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/bin/psql
+psql (PostgreSQL) 14.5
+=== Job hitachi_meter_reading_retrieval_off_campus_month_v1 (ID 607095.pbs-7) finished on cx3-2-21.cx3.hpc.ic.ac.uk at Fri  4 Jul 00:09:04 BST 2025 ===
+
+====================================
+CPU Time used: 00:04:05
+CPU Percent: 20%
+Memory usage: 16696344kb
+Approx Power usage: 0.0008
+Walltime usage: 06:01:36
+
+====================================

@@ -1,0 +1,3 @@
+
+--> Saved the merged meter readings data to: '../../data/hitachi_copy/meter_primary_files/meter_readings_all_years_20250714_formatted.parquet'
+=== Job meter_readings_processing_merge_years (ID 814747.pbs-7) finished on cx3-12-26.cx3.hpc.ic.ac.uk at Tue  5 Aug 01:59:33 BST 2025 ===

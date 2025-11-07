@@ -1,0 +1,86 @@
+Lmod Warning:
+-------------------------------------------------------------------------------
+The following dependent module(s) are not currently loaded: GCC/14.2.0
+(required by: OpenMPI/5.0.7-GCC-14.2.0), GCCcore/14.2.0 (required by:
+numactl/2.0.19-GCCcore-14.2.0, XZ/5.6.3-GCCcore-14.2.0,
+libxml2/2.13.4-GCCcore-14.2.0, libpciaccess/0.18.1-GCCcore-14.2.0,
+hwloc/2.11.2-GCCcore-14.2.0, libevent/2.1.12-GCCcore-14.2.0,
+UCX/1.18.0-GCCcore-14.2.0, libfabric/2.0.0-GCCcore-14.2.0,
+PMIx/5.0.6-GCCcore-14.2.0, PRRTE/3.0.8-GCCcore-14.2.0,
+UCC/1.3.0-GCCcore-14.2.0), zlib/1.3.1-GCCcore-14.2.0 (required by:
+libxml2/2.13.4-GCCcore-14.2.0, libevent/2.1.12-GCCcore-14.2.0,
+UCX/1.18.0-GCCcore-14.2.0, PMIx/5.0.6-GCCcore-14.2.0, OpenMPI/5.0.7-GCC-14.2.0)
+-------------------------------------------------------------------------------
+
+
+
+
+The following have been reloaded with a version change:
+  1) GCC/14.2.0 => GCC/14.3.0
+  2) GCCcore/14.2.0 => GCCcore/14.3.0
+  3) binutils/2.42-GCCcore-14.2.0 => binutils/2.44-GCCcore-14.3.0
+  4) zlib/1.3.1-GCCcore-14.2.0 => zlib/1.3.1-GCCcore-14.3.0
+
+Lmod Warning:
+-------------------------------------------------------------------------------
+The following dependent module(s) are not currently loaded: GCC/14.2.0
+(required by: OpenMPI/5.0.7-GCC-14.2.0), GCCcore/14.2.0 (required by:
+numactl/2.0.19-GCCcore-14.2.0, libxml2/2.13.4-GCCcore-14.2.0,
+libpciaccess/0.18.1-GCCcore-14.2.0, hwloc/2.11.2-GCCcore-14.2.0,
+libevent/2.1.12-GCCcore-14.2.0, UCX/1.18.0-GCCcore-14.2.0,
+libfabric/2.0.0-GCCcore-14.2.0, PMIx/5.0.6-GCCcore-14.2.0,
+PRRTE/3.0.8-GCCcore-14.2.0, UCC/1.3.0-GCCcore-14.2.0), XZ/5.6.3-GCCcore-14.2.0
+(required by: libxml2/2.13.4-GCCcore-14.2.0), zlib/1.3.1-GCCcore-14.2.0
+(required by: libxml2/2.13.4-GCCcore-14.2.0, libevent/2.1.12-GCCcore-14.2.0,
+UCX/1.18.0-GCCcore-14.2.0, PMIx/5.0.6-GCCcore-14.2.0, OpenMPI/5.0.7-GCC-14.2.0)
+-------------------------------------------------------------------------------
+
+
+
+
+The following have been reloaded with a version change:
+  1) XZ/5.6.3-GCCcore-14.2.0 => XZ/5.8.1-GCCcore-14.3.0
+
+
+The following have been reloaded with a version change:
+  1) zlib/1.3.1-GCCcore-14.3.0 => zlib/1.3.1
+
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+python: can't open file '/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/scripts/scripts/step4_reproducingR_analysis.py': [Errno 2] No such file or directory
+--------------------------------------------------------------------------
+prterun detected that one or more processes exited with non-zero status,
+thus causing the job to be terminated. The first process to do so was:
+
+   Process name: [prterun-cx3-5-20-1699195@1,25]
+   Exit code:    2
+--------------------------------------------------------------------------

@@ -1,0 +1,4 @@
+Rank 0 SUCCESS: Saved optimised data to: ../../data/hitachi_copy/weather_20250714_1401_optimised.parquet
+Rank 0 SUCCESS: Saved optimised data to: ../../data/hitachi_copy/customers_20250714_1401_optimised.parquet
+=== MPI Job Completed on 64 ranks ===
+=== Job reducing_data_size_v1 (ID 675918.pbs-7) finished on cx3-15-17.cx3.hpc.ic.ac.uk at Tue 15 Jul 11:55:24 BST 2025 ===

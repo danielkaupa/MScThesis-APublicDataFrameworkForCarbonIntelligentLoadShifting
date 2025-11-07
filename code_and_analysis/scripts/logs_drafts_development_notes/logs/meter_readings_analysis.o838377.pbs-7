@@ -1,0 +1,521 @@
+
+Data types in 'meter_readings_2021':
+[Int64, String, Float64, String]
+Schema([('ca_id', Int64), ('date', String), ('value', Float64), ('city', String)])
+Saved sample outputs:
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/sample__meter_readings_2021__head.csv
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/sample__meter_readings_2021__describe.csv
+(preview) sample__meter_readings_2021
+      ca_id                date  value  city
+60005549047 2021-12-01 00:00:00  0.122 delhi
+60023930583 2021-12-01 00:00:00  0.090 delhi
+60003536707 2021-12-01 00:00:00  0.000 delhi
+60004180638 2021-12-01 00:00:00  0.023 delhi
+60020144238 2021-12-01 00:00:00  0.409 delhi
+
+------------------------------------------------------------------------------------------------------------------------
+Date Range Analysis for Meter Readings Files:
+------------------------------------------------------------------------------------------------------------------------
+meter_readings_2021_20250714_2015_formatted.parquet: 2021-12-01 00:00:00 to 2021-12-31 23:30:00
+meter_readings_2022_20250714_2324_formatted.parquet: 2022-01-01 00:00:00 to 2022-12-31 23:30:00
+meter_readings_2023_20250714_2039_formatted.parquet: 2023-01-01 00:00:00 to 2023-03-28 00:00:00
+meter_readings_delhi_2021_20250714_2015_formatted.parquet: 2021-12-01 00:00:00 to 2021-12-31 23:30:00
+meter_readings_delhi_2022_20250714_2324_formatted.parquet: 2022-01-01 00:00:00 to 2022-12-31 08:30:00
+meter_readings_mumbai_2022_20250714_2324_formatted.parquet: 2022-09-28 18:00:00 to 2022-12-31 23:30:00
+meter_readings_mumbai_2023_20250714_2039_formatted.parquet: 2023-01-01 00:00:00 to 2023-03-28 00:00:00
+meter_readings_all_years_20250714_formatted.parquet: 2021-12-01 00:00:00 to 2023-03-28 00:00:00
+
+------------------------------------------------------------------------------------------------------------------------
+Summary Analysis of 2021 Data :
+------------------------------------------------------------------------------------------------------------------------
+Unique Customer Ids: 165,077
+Unique Cities: 1
+Total Rows: 243,195,781
+Unique Cities List: ['delhi']
+
+------------------------------------------------------------------------------------------------------------------------
+Summary Analysis of 2022 Data :
+------------------------------------------------------------------------------------------------------------------------
+Unique Customer Ids: 228,234
+Unique Cities: 2
+Total Rows: 1,223,040,456
+Unique Cities List: ['delhi', 'mumbai']
+
+------------------------------------------------------------------------------------------------------------------------
+Summary Analysis of 2023 Data :
+------------------------------------------------------------------------------------------------------------------------
+Unique Customer Ids: 53,796
+Unique Cities: 1
+Total Rows: 189,094,063
+Unique Cities List: ['mumbai']
+
+------------------------------------------------------------------------------------------------------------------------
+2021 Data : Readings Per City 
+------------------------------------------------------------------------------------------------------------------------
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_city_2021__head.csv
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_city_2021__describe.csv
+(preview) readings_per_city_2021
+ city  number_of_readings  percentage_of_readings
+delhi           243195781                   100.0
+
+------------------------------------------------------------------------------------------------------------------------
+2022 Data : Readings Per City 
+------------------------------------------------------------------------------------------------------------------------
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_city_2022__head.csv
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_city_2022__describe.csv
+(preview) readings_per_city_2022
+  city  number_of_readings  percentage_of_readings
+ delhi          1100253784                   89.96
+mumbai           122786672                   10.04
+
+------------------------------------------------------------------------------------------------------------------------
+2023 Data : Readings Per City 
+------------------------------------------------------------------------------------------------------------------------
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_city_2023__head.csv
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_city_2023__describe.csv
+(preview) readings_per_city_2023
+  city  number_of_readings  percentage_of_readings
+mumbai           189094063                   100.0
+
+------------------------------------------------------------------------------------------------------------------------
+2021 Data : Readings Per Customer 
+------------------------------------------------------------------------------------------------------------------------
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_customer_2021__head.csv
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_customer_2021__describe.csv
+(preview) readings_per_customer_2021
+      ca_id  number_of_readings  percentage_of_readings
+60027986623                1488                 0.00061
+60003102013                1488                 0.00061
+60008201158                1488                 0.00061
+60001368616                1488                 0.00061
+60007012655                1488                 0.00061
+
+------------------------------------------------------------------------------------------------------------------------
+2022 Data : Readings Per Customer 
+------------------------------------------------------------------------------------------------------------------------
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_customer_2022__head.csv
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_customer_2022__describe.csv
+(preview) readings_per_customer_2022
+      ca_id  number_of_readings  percentage_of_readings
+60010052003                6425                 0.00053
+60009781588                6425                 0.00053
+60007617842                6425                 0.00053
+60014291912                6425                 0.00053
+60016141578                6425                 0.00053
+
+------------------------------------------------------------------------------------------------------------------------
+2023 Data : Readings Per Customer 
+------------------------------------------------------------------------------------------------------------------------
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_customer_2023__head.csv
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_customer_2023__describe.csv
+(preview) readings_per_customer_2023
+       ca_id  number_of_readings  percentage_of_readings
+900001102930                4129                 0.00218
+900001148283                4129                 0.00218
+900001160469                4129                 0.00218
+900000974734                4129                 0.00218
+900000977089                4129                 0.00218
+
+------------------------------------------------------------------------------------------------------------------------
+2021 Data : Customer Lifetimes 
+------------------------------------------------------------------------------------------------------------------------
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/customer_lifetimes_2021__head.csv
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/customer_lifetimes_2021__describe.csv
+(preview) customer_lifetimes_2021
+      ca_id start_date   end_date  customer_lifetime_days
+60022361665 2021-12-01 2021-12-31                      31
+60011188533 2021-12-01 2021-12-31                      31
+60000830863 2021-12-01 2021-12-31                      31
+60010054454 2021-12-01 2021-12-31                      31
+60002391765 2021-12-01 2021-12-31                      31
+
+------------------------------------------------------------------------------------------------------------------------
+2022 Data : Customer Lifetimes 
+------------------------------------------------------------------------------------------------------------------------
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/customer_lifetimes_2022__head.csv
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/customer_lifetimes_2022__describe.csv
+(preview) customer_lifetimes_2022
+      ca_id start_date   end_date  customer_lifetime_days
+60006757219 2022-01-01 2022-12-31                     365
+60008456471 2022-01-01 2022-12-30                     364
+60015921525 2022-01-01 2022-12-29                     363
+60017453493 2022-01-01 2022-12-29                     363
+60028221046 2022-01-01 2022-12-27                     361
+
+------------------------------------------------------------------------------------------------------------------------
+2023 Data : Customer Lifetimes 
+------------------------------------------------------------------------------------------------------------------------
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/customer_lifetimes_2023__head.csv
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/customer_lifetimes_2023__describe.csv
+(preview) customer_lifetimes_2023
+       ca_id start_date   end_date  customer_lifetime_days
+900000978512 2023-01-01 2023-03-28                      87
+900001194173 2023-01-01 2023-03-28                      87
+900001208977 2023-01-01 2023-03-28                      87
+900001078057 2023-01-01 2023-03-28                      87
+900001053869 2023-01-01 2023-03-28                      87
+Saved plot: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/images/customer_lifetimes_2023__hist.png
+Saved plot: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/images/customer_new_per_week_2023.png
+
+------------------------------------------------------------------------------------------------------------------------
+Summary Analysis of 2021 Delhi Data :
+------------------------------------------------------------------------------------------------------------------------
+Unique Customer Ids: 165,077
+Unique Cities: 1
+Total Rows: 243,195,781
+Unique Cities List: ['delhi']
+
+------------------------------------------------------------------------------------------------------------------------
+Summary Analysis of 2022 Delhi Data :
+------------------------------------------------------------------------------------------------------------------------
+Unique Customer Ids: 184,530
+Unique Cities: 1
+Total Rows: 1,100,253,784
+Unique Cities List: ['delhi']
+
+------------------------------------------------------------------------------------------------------------------------
+2021 Delhi Data : Readings Per City 
+------------------------------------------------------------------------------------------------------------------------
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_city__2021_delhi__head.csv
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_city__2021_delhi__describe.csv
+(preview) readings_per_city__2021_delhi
+ city  number_of_readings  percentage_of_readings
+delhi           243195781                   100.0
+
+------------------------------------------------------------------------------------------------------------------------
+2022 Delhi Data : Readings Per City 
+------------------------------------------------------------------------------------------------------------------------
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_city__2022_delhi__head.csv
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_city__2022_delhi__describe.csv
+(preview) readings_per_city__2022_delhi
+ city  number_of_readings  percentage_of_readings
+delhi          1100253784                   100.0
+
+------------------------------------------------------------------------------------------------------------------------
+2021 Delhi Data : Readings Per Customer 
+------------------------------------------------------------------------------------------------------------------------
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_customer__2021_delhi__head.csv
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_customer__2021_delhi__describe.csv
+(preview) readings_per_customer__2021_delhi
+      ca_id  number_of_readings  percentage_of_readings
+60012401414                1488                 0.00061
+60025556402                1488                 0.00061
+60016384640                1488                 0.00061
+60005022318                1488                 0.00061
+60006001139                1488                 0.00061
+
+------------------------------------------------------------------------------------------------------------------------
+2022 Delhi Data : Readings Per Customer 
+------------------------------------------------------------------------------------------------------------------------
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_customer__2022_delhi__head.csv
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_customer__2022_delhi__describe.csv
+(preview) readings_per_customer__2022_delhi
+      ca_id  number_of_readings  percentage_of_readings
+60027899966                6425                 0.00058
+60012374678                6425                 0.00058
+60021838291                6425                 0.00058
+60011917816                6425                 0.00058
+60025251145                6425                 0.00058
+
+------------------------------------------------------------------------------------------------------------------------
+2021 Delhi Data : Customer Lifetimes 
+------------------------------------------------------------------------------------------------------------------------
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/customer_lifetimes__2021_delhi__head.csv
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/customer_lifetimes__2021_delhi__describe.csv
+(preview) customer_lifetimes__2021_delhi
+      ca_id start_date   end_date  customer_lifetime_days
+60018656573 2021-12-01 2021-12-31                      31
+60025848676 2021-12-01 2021-12-31                      31
+60003227612 2021-12-01 2021-12-31                      31
+60013653963 2021-12-01 2021-12-31                      31
+60026790174 2021-12-01 2021-12-31                      31
+
+------------------------------------------------------------------------------------------------------------------------
+2022 Delhi Data : Customer Lifetimes 
+------------------------------------------------------------------------------------------------------------------------
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/customer_lifetimes__2022_delhi__head.csv
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/customer_lifetimes__2022_delhi__describe.csv
+(preview) customer_lifetimes__2022_delhi
+      ca_id start_date   end_date  customer_lifetime_days
+60006757219 2022-01-01 2022-12-31                     365
+60008456471 2022-01-01 2022-12-30                     364
+60017453493 2022-01-01 2022-12-29                     363
+60015921525 2022-01-01 2022-12-29                     363
+60028221046 2022-01-01 2022-12-27                     361
+
+------------------------------------------------------------------------------------------------------------------------
+Summary Analysis of 2022 Mumbai Data :
+------------------------------------------------------------------------------------------------------------------------
+Unique Customer Ids: 43,704
+Unique Cities: 1
+Total Rows: 122,786,672
+Unique Cities List: ['mumbai']
+
+------------------------------------------------------------------------------------------------------------------------
+Summary Analysis of 2023 Mumbai Data :
+------------------------------------------------------------------------------------------------------------------------
+Unique Customer Ids: 53,796
+Unique Cities: 1
+Total Rows: 189,094,063
+Unique Cities List: ['mumbai']
+
+------------------------------------------------------------------------------------------------------------------------
+2022 Mumbai Data : Readings Per City 
+------------------------------------------------------------------------------------------------------------------------
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_city__2022_mumbai__head.csv
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_city__2022_mumbai__describe.csv
+(preview) readings_per_city__2022_mumbai
+  city  number_of_readings  percentage_of_readings
+mumbai           122786672                   100.0
+
+------------------------------------------------------------------------------------------------------------------------
+2023 Mumbai Data : Readings Per City 
+------------------------------------------------------------------------------------------------------------------------
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_city__2023_mumbai__head.csv
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_city__2023_mumbai__describe.csv
+(preview) readings_per_city__2023_mumbai
+  city  number_of_readings  percentage_of_readings
+mumbai           189094063                   100.0
+
+------------------------------------------------------------------------------------------------------------------------
+2022 Mumbai Data : Readings Per Customer 
+------------------------------------------------------------------------------------------------------------------------
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_customer__2022_mumbai__head.csv
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_customer__2022_mumbai__describe.csv
+(preview) readings_per_customer__2022_mumbai
+       ca_id  number_of_readings  percentage_of_readings
+900000068337                4524                 0.00368
+900000048383                4524                 0.00368
+900000048771                4524                 0.00368
+900000825523                4524                 0.00368
+900000048684                4524                 0.00368
+
+------------------------------------------------------------------------------------------------------------------------
+2023 Mumbai Data : Readings Per Customer 
+------------------------------------------------------------------------------------------------------------------------
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_customer__2023_mumbai__head.csv
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/readings_per_customer__2023_mumbai__describe.csv
+(preview) readings_per_customer__2023_mumbai
+       ca_id  number_of_readings  percentage_of_readings
+900001092123                4129                 0.00218
+900000974521                4129                 0.00218
+900001068864                4129                 0.00218
+900001078291                4129                 0.00218
+900000977213                4129                 0.00218
+
+------------------------------------------------------------------------------------------------------------------------
+2022 Mumbai Data : Customer Lifetimes 
+------------------------------------------------------------------------------------------------------------------------
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/customer_lifetimes__2022_mumbai__head.csv
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/customer_lifetimes__2022_mumbai__describe.csv
+(preview) customer_lifetimes__2022_mumbai
+       ca_id start_date   end_date  customer_lifetime_days
+900000153753 2022-09-28 2022-12-31                      95
+900000053327 2022-09-28 2022-12-31                      95
+900000068053 2022-09-28 2022-12-31                      95
+900000047246 2022-09-28 2022-12-31                      95
+900000149168 2022-09-28 2022-12-31                      95
+
+------------------------------------------------------------------------------------------------------------------------
+2023 Mumbai Data : Customer Lifetimes 
+------------------------------------------------------------------------------------------------------------------------
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/customer_lifetimes__2023_mumbai__head.csv
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/customer_lifetimes__2023_mumbai__describe.csv
+(preview) customer_lifetimes__2023_mumbai
+       ca_id start_date   end_date  customer_lifetime_days
+900000967085 2023-01-01 2023-03-28                      87
+900000974726 2023-01-01 2023-03-28                      87
+900001078331 2023-01-01 2023-03-28                      87
+900001068856 2023-01-01 2023-03-28                      87
+900001189907 2023-01-01 2023-03-28                      87
+Saved plot: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/images/mumbai_2023__customer_lifetimes_hist.png
+Saved plot: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/images/mumbai_2023__new_customers_per_week.png
+Saved plot: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/images/mumbai_2022__daily_patterns.png
+(preview) mumbai_2022_hourly
+ hour  weekday  avg_hourly_usage
+   10        4      17673.647846
+   10        3      17624.610615
+   21        3      17568.396462
+   22        3      17492.624231
+    9        4      17388.213923
+Saved plot: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/images/mumbai_2023__daily_patterns.png
+(preview) mumbai_2023_hourly
+ hour  weekday  avg_hourly_usage
+   11        7      29050.892500
+   10        7      29037.221250
+   11        8      28914.426462
+   12        8      28634.038462
+   12        7      28002.662000
+NOTE: Mumbai 2022 peaks missing columns: ['Mon']
+NOTE: Mumbai 2023 peaks missing columns: ['Mon']
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/mumbai_2022__peaks__Tue.csv
+(preview) mumbai_2022__peaks__Tue
+ hour          Tue
+   21 15411.249231
+   22 15380.859846
+   10 15321.187231
+   20 15205.789308
+    9 15159.697154
+   23 15048.519923
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/mumbai_2022__peaks__Wed.csv
+(preview) mumbai_2022__peaks__Wed
+ hour          Wed
+   10 17624.610615
+   21 17568.396462
+   22 17492.624231
+   20 17372.150077
+    9 17275.699000
+   23 17108.445077
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/mumbai_2022__peaks__Thu.csv
+(preview) mumbai_2022__peaks__Thu
+ hour          Thu
+   10 17673.647846
+    9 17388.213923
+   11 17041.843615
+   21 16443.877643
+    8 16399.968692
+   22 16344.069929
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/mumbai_2022__peaks__Fri.csv
+(preview) mumbai_2022__peaks__Fri
+ hour          Fri
+   10 16347.689429
+   21 16269.936214
+   20 16106.015500
+    9 16081.699286
+   22 16035.292643
+   11 15833.758214
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/mumbai_2022__peaks__Sat.csv
+(preview) mumbai_2022__peaks__Sat
+ hour          Sat
+   10 16387.036857
+    9 16057.427786
+   11 15836.503429
+   20 15738.993143
+   21 15734.147286
+   19 15394.030286
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/mumbai_2022__peaks__Sun.csv
+(preview) mumbai_2022__peaks__Sun
+ hour          Sun
+   11 17029.907929
+   10 16895.087214
+   12 16376.101929
+   13 15793.650714
+   20 15781.377071
+   19 15698.919143
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/mumbai_2023__peaks__Tue.csv
+(preview) mumbai_2023__peaks__Tue
+ hour          Tue
+    9 27285.164538
+   10 27017.245462
+    8 26040.960385
+   11 25804.272385
+   20 24395.736462
+   12 24273.097385
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/mumbai_2023__peaks__Wed.csv
+(preview) mumbai_2023__peaks__Wed
+ hour          Wed
+   10 26758.749250
+    9 26703.767583
+   21 26102.967750
+   20 25806.977583
+   22 25611.162583
+   11 25607.513500
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/mumbai_2023__peaks__Thu.csv
+(preview) mumbai_2023__peaks__Thu
+ hour          Thu
+   10 27368.445083
+    9 27283.552750
+   21 26333.471000
+   11 26222.939917
+   20 26073.117000
+   22 26041.299750
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/mumbai_2023__peaks__Fri.csv
+(preview) mumbai_2023__peaks__Fri
+ hour          Fri
+   10 27240.232583
+    9 27214.316583
+   21 26259.093167
+   20 26178.646083
+   11 26095.125667
+   22 25816.076000
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/mumbai_2023__peaks__Sat.csv
+(preview) mumbai_2023__peaks__Sat
+ hour          Sat
+   10 27608.525833
+    9 27312.280333
+   11 26597.891417
+   21 26188.309750
+   20 26149.183750
+    8 25936.125167
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/mumbai_2023__peaks__Sun.csv
+(preview) mumbai_2023__peaks__Sun
+ hour          Sun
+   11 29050.892500
+   10 29037.221250
+   12 28002.662000
+   13 26870.503083
+    9 26801.982000
+   20 26194.707583
+(preview) mumbai_2023 hourly_peaks
+  city day_of_week  hour    value
+mumbai      Friday     0 0.256169
+mumbai      Friday     1 0.232896
+mumbai      Friday     2 0.214738
+mumbai      Friday     3 0.201556
+mumbai      Friday     4 0.193314
+(preview) mumbai_2023 hourly_median
+ hour   Friday   Sunday   Monday  Tuesday  Wednesday  Thursday  Saturday
+    0 0.256169 0.252431 0.259349 0.254874   0.252379  0.255957  0.262443
+    1 0.232896 0.235716 0.236866 0.231007   0.227953  0.231664  0.241546
+    2 0.214738 0.219836 0.218566 0.213489   0.209597  0.213217  0.223636
+    3 0.201556 0.207414 0.205074 0.200003   0.197037  0.200151  0.210017
+    4 0.193314 0.198113 0.195857 0.191425   0.188827  0.191964  0.200345
+Saved plot: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/images/mumbai_2023__hourly_heatmap_monday_sorted.png
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/mumbai_2023__hourly_heatmap_table.csv
+(preview) mumbai_2023__hourly_heatmap_table
+ hour   Friday   Sunday   Monday  Tuesday  Wednesday  Thursday  Saturday
+   23 0.274926 0.273665 0.274566 0.272622   0.276352  0.273404  0.268880
+   22 0.279796 0.277784 0.282478 0.281147   0.284391  0.280994  0.274563
+   21 0.284367 0.280093 0.283662 0.286558   0.287584  0.285819  0.281040
+   20 0.283976 0.280577 0.279999 0.282855   0.284743  0.284946  0.283726
+   19 0.268945 0.271955 0.263928 0.267003   0.268349  0.269200  0.274672
+
+------------------------------------------------------------------------------------------------------------------------
+All-Years (Full Dataset) : Summary & Reports
+------------------------------------------------------------------------------------------------------------------------
+All-years date range: 2021-12-01 00:00:00 to 2023-03-28 00:00:00
+Unique Customer Ids: 238,479
+Unique Cities: 2
+Total Rows: 1,655,330,300
+Unique Cities List: ['delhi', 'mumbai']
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/all_years__readings_per_city__head.csv
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/all_years__readings_per_city__describe.csv
+(preview) all_years__readings_per_city
+  city  number_of_readings  percentage_of_readings
+ delhi          1343449565                   81.16
+mumbai           311880735                   18.84
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/all_years__readings_per_customer__head.csv
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/all_years__readings_per_customer__describe.csv
+(preview) all_years__readings_per_customer
+       ca_id  number_of_readings  percentage_of_readings
+900001202778                8653                 0.00052
+900001029211                8652                 0.00052
+900001200060                8651                 0.00052
+900001030039                8649                 0.00052
+900000973457                8645                 0.00052
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/all_years__customer_lifetimes__head.csv
+Saved: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/data/outputs/all_years__customer_lifetimes__describe.csv
+(preview) all_years__customer_lifetimes
+      ca_id start_date   end_date  customer_lifetime_days
+60006757219 2021-12-01 2022-12-31                     396
+60008456471 2021-12-01 2022-12-30                     395
+60015921525 2021-12-01 2022-12-29                     394
+60017453493 2021-12-01 2022-12-29                     394
+60028221046 2021-12-01 2022-12-27                     392
+Saved plot: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/images/all_years__customer_lifetimes_hist.png
+Saved plot: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/images/all_years__new_customers_per_week_2021.png
+Saved plot: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/images/all_years__new_customers_per_week_2022.png
+Saved plot: /rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/images/all_years__new_customers_per_week_2023.png
+
+=== Completed meter_readings_analysis.py ===
+=== Job meter_readings_analysis (ID 838377.pbs-7) finished on cx3-5-25.cx3.hpc.ic.ac.uk at Mon 11 Aug 19:40:02 BST 2025 ===

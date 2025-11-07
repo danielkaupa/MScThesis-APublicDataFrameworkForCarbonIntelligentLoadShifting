@@ -1,0 +1,8 @@
+  File "/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/hpc_scripts/final/hitachi_meter_reading_retrieval_off_campus_months_v3_2021.py", line 39
+    for month in range(12,13)
+                             ^
+SyntaxError: expected ':'
+  File "/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/hpc_scripts/final/hitachi_meter_reading_retrieval_off_campus_months_v3_2022.py", line 39
+    for month in range(1,3)
+                           ^
+SyntaxError: expected ':'

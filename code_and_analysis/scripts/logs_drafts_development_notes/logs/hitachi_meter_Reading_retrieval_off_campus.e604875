@@ -1,0 +1,46 @@
+Traceback (most recent call last):
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.OperationalError: could not receive data from server: Connection timed out
+SSL SYSCALL error: Connection timed out
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/rds/general/user/dbk24/home/code_and_analysis/hitachi_meter_reading_retrieval_off_campus.py", line 94, in <module>
+    meter_readings_table_2021_pldf = query_to_polars("""
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "/rds/general/user/dbk24/home/code_and_analysis/hitachi_meter_reading_retrieval_off_campus.py", line 75, in query_to_polars
+    result = conn.execute(text(sql))    # Execute the SQL query (text() function is used to safely handle SQL queries)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1415, in execute
+    return meth(
+           ^^^^^
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/sqlalchemy/sql/elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1637, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1842, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1982, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2351, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not receive data from server: Connection timed out
+SSL SYSCALL error: Connection timed out
+
+[SQL: 
+    SELECT ca_id, date, value FROM meter_readings
+    WHERE date >= '2021-01-01' AND date < '2022-01-01'
+]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)

@@ -1,0 +1,31 @@
+Traceback (most recent call last):
+  File "/rds/general/user/dbk24/home/irp-dbk24/code_and_analysis/hpc_scripts/final/meter_readings_processing_merge_years.py", line 60, in <module>
+    lf = pl.read_parquet(path, use_pyarrow=True).lazy().with_columns([
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/polars/_utils/deprecation.py", line 128, in wrapper
+    return function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/polars/_utils/deprecation.py", line 128, in wrapper
+    return function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/polars/io/parquet/functions.py", line 235, in read_parquet
+    return _read_parquet_with_pyarrow(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/polars/io/parquet/functions.py", line 325, in _read_parquet_with_pyarrow
+    pa_table = pyarrow_parquet.read_table(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/pyarrow/parquet/core.py", line 1774, in read_table
+    dataset = ParquetDataset(
+              ^^^^^^^^^^^^^^^
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/pyarrow/parquet/core.py", line 1361, in __init__
+    self._dataset = ds.dataset(path_or_paths, filesystem=filesystem,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/pyarrow/dataset.py", line 794, in dataset
+    return _filesystem_dataset(source, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/pyarrow/dataset.py", line 476, in _filesystem_dataset
+    fs, paths_or_selector = _ensure_single_source(source, filesystem)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/rds/general/user/dbk24/home/miniforge3/envs/irpenv_1/lib/python3.11/site-packages/pyarrow/dataset.py", line 441, in _ensure_single_source
+    raise FileNotFoundError(path)
+FileNotFoundError: ../../data/hitachi_copy/meter_primary_files/meter_readings_2021_20250714_2015_formatted.parquet

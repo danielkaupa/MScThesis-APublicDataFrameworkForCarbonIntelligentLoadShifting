@@ -1,0 +1,16 @@
+Rank 6 SUCCESS: Saved ../../data/hitachi_copy/meter_primary_files/meter_readings_mumbai_2023_Q1_20250714_2039_optimised.parquet
+Rank 4 SUCCESS: Saved ../../data/hitachi_copy/meter_primary_files/meter_readings_delhi_2022_Q2_20250714_2324_optimised.parquet
+Rank 4 SUCCESS: Saved ../../data/hitachi_copy/meter_primary_files/meter_readings_delhi_2022_Q1_20250714_2324_optimised.parquet
+Rank 4 SUCCESS: Saved ../../data/hitachi_copy/meter_primary_files/meter_readings_delhi_2022_Q4_20250714_2324_optimised.parquet
+Rank 4 SUCCESS: Saved ../../data/hitachi_copy/meter_primary_files/meter_readings_delhi_2022_Q3_20250714_2324_optimised.parquet
+Rank 0 SUCCESS: Saved ../../data/hitachi_copy/meter_primary_files/meter_readings_2021_Q4_20250714_2015_optimised.parquet
+=== Quarter-splitting complete on 64 ranks ===
+Rank 5 SUCCESS: Saved ../../data/hitachi_copy/meter_primary_files/meter_readings_mumbai_2022_Q4_20250714_2324_optimised.parquet
+Rank 5 SUCCESS: Saved ../../data/hitachi_copy/meter_primary_files/meter_readings_mumbai_2022_Q3_20250714_2324_optimised.parquet
+Rank 3 SUCCESS: Saved ../../data/hitachi_copy/meter_primary_files/meter_readings_delhi_2021_Q4_20250714_2015_optimised.parquet
+Rank 2 SUCCESS: Saved ../../data/hitachi_copy/meter_primary_files/meter_readings_2023_Q1_20250714_2039_optimised.parquet
+Rank 1 SUCCESS: Saved ../../data/hitachi_copy/meter_primary_files/meter_readings_2022_Q2_20250714_2324_optimised.parquet
+Rank 1 SUCCESS: Saved ../../data/hitachi_copy/meter_primary_files/meter_readings_2022_Q3_20250714_2324_optimised.parquet
+Rank 1 SUCCESS: Saved ../../data/hitachi_copy/meter_primary_files/meter_readings_2022_Q4_20250714_2324_optimised.parquet
+Rank 1 SUCCESS: Saved ../../data/hitachi_copy/meter_primary_files/meter_readings_2022_Q1_20250714_2324_optimised.parquet
+=== Job meter_readings_split_to_quarterly_v1 (ID 676292.pbs-7) finished on cx3-15-18.cx3.hpc.ic.ac.uk at Tue 15 Jul 14:15:57 BST 2025 ===

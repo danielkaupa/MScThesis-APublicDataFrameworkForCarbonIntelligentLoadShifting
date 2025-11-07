@@ -1,0 +1,5 @@
+ERROR: Failed to process 'meter_readings_delhi_2022_Q1and2_20250704.parquet': input data is not sorted
+ERROR: Failed to process 'meter_readings_delhi_2022_Q3and4_20250704.parquet': input data is not sorted
+SUCCESS: Saved hourly data to: ../../data/hitachi_copy/meter_primary_files/meter_readings_mumbai_2022_Q1and2_hourly_20250704
+ERROR: Failed to process 'meter_readings_mumbai_2022_Q3and4_20250704.parquet': input data is not sorted
+=== Job meter_data_hourly_aggregation_for_files_v2copy.py (ID 619943.pbs-7) finished on cx3-5-21.cx3.hpc.ic.ac.uk at Mon  7 Jul 22:54:01 BST 2025 ===

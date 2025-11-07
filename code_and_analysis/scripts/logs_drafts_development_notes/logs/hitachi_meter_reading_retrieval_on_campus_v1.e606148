@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/rds/general/user/dbk24/home/code_and_analysis/hitachi_meter_reading_retrieval_on_campus_v1.py", line 91, in <module>
+    raise RuntimeError(f"psql COPY failed (exit {rc}):\n{err}")
+RuntimeError: psql COPY failed (exit 2):
+COPY data transfer failed: could not receive data from server: Connection timed out
+SSL SYSCALL error: Connection timed out
+could not receive data from server: Connection timed out
+SSL SYSCALL error: Connection timed out
+COPY data transfer failed: could not receive data from server: Connection timed out
+SSL SYSCALL error: Connection timed out
+SSL SYSCALL error: EOF detected
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+could not receive data from server: Connection timed out
+SSL SYSCALL error: Connection timed out
+SSL SYSCALL error: EOF detected
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+connection to server was lost
+
